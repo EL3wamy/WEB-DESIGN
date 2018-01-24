@@ -1,5 +1,0 @@
-in this project i will add:
-
-1-Some Library --->Fontawsom , HTMLShiv , Normalize
-2-upgrad my livel in css and us some responsive practice
-3-using Some HTML5 Semantics
