@@ -1,0 +1,174 @@
+body
+{
+  direction: rtl; /*for arabic pag*/
+}
+ul,ol
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  #container
+  {
+    width: 940px;
+    margin: 20px auto;
+  }
+    #container #head
+      {
+        min-height: 10%;
+        background-color: #F1F1EF;
+        overflow: hidden;
+
+      }
+          header .logo
+            {
+
+              height: 100px;
+              width: 20%;
+              float: right;
+            }
+                header .logo img
+                  {
+                    margin-right: 47px;
+                    width: 100px;
+                  }
+         nav
+            {
+              height: 100px;
+              width: 80%;
+              float:left;
+
+            }
+                nav ul
+                {
+                  margin: 22px 150px 0 0;
+                  font-family: 'Lalezar', cursive;
+                  font-size: 23PX;
+
+
+                }
+                    nav ul li
+                    {
+                      display: inline-block;
+                      padding: 10px;
+                      margin: 10px;
+
+                    }
+
+    #content
+      {
+        background-color: #A2AEAE;
+        overflow: hidden;
+      }
+          #content aside
+            {
+              float: right;
+              width: 25%;
+              min-height: 100%;
+              font-family: 'Cairo', sans-serif;
+
+            }
+                #content aside .widget
+                  {
+                    margin: 10px auto;
+                    width: 90%;
+                    background-color: white;
+                    text-align: center;
+
+                  }
+                    #content aside .widget img
+                        {
+                          max-width: 80%;
+                        }
+
+                        #content aside .widget header
+                          {
+                            background-color: black;
+                            color: white;
+                            height: 30px;
+                            padding-top: 10px;
+                          }
+                        #content aside .widget section
+                        {
+                          border: 1px solid;
+                          padding: 5px;
+
+                        }
+                            #content aside .widget .fa
+                            {
+                              color: #676767;
+
+                            }
+                            #content aside .widget section ul li
+                              {
+                                padding: 10px;
+                                text-align: right;
+                              }
+
+          #content .Products
+            {
+              float: left;
+              width: 75%;
+
+            }
+                #content .Products .product
+                {
+                  width: 24%;
+                  margin-top: 10px;
+                  text-align: center;
+                  float: right;
+                  margin-left: 1%;
+                  padding-bottom: 10px;
+                
+                  height: 250px;
+                }
+                    #content .Products .product img
+                    {
+                      max-width: 100%;
+                      height:90%;
+
+                    }
+                    #content .Products .product span
+                    {
+                      display:block;
+                      padding-top: 5px
+                    }
+
+    footer
+    {
+
+      font-family: 'Reem Kufi', sans-serif;
+    }
+          footer .info
+          {
+            background-color: #F1F1EF;
+            overflow: hidden;
+          }
+
+                footer .info section
+                {
+                  float: right;
+                  width: 33.3333%;
+                }
+                      footer .info section header
+                      {
+                        margin-right: 5px;
+                        padding:5px;
+                        border-bottom: 1px solid #A2AEAE;
+
+                      }
+                        footer .info section .footContent
+                        {
+                          margin:5px 5px 0 0;
+                          padding: 5px;
+                          line-height: 25px;
+                  }
+          footer .copyRight
+          {
+            background: #333;
+            color: white;
+            text-align: center;
+            font-family: 'Cairo', sans-serif;
+            padding: 5px;
+          }
