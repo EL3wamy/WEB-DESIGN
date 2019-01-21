@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Css/MainStyle.css">
+    <link rel="stylesheet" href="Css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="Css/fontawesome.min.css">   <!-- fontawesome-all for icons-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|VT323" rel="stylesheet">
+    <script type="text/javascript" src="Js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Js/jcarousel.js"></script>
+
+    <script type="text/javascript">
+        var scroll = 0;
+    </script>
+    <script type="text/javascript" src="Js/MainJs.js"></script>
+    <title>MenZSlaoon</title>
+    <style media="screen">
+
+    </style>
+  </head>
+  <body onscroll="NavScroll()">
+    <div id="mainContent">
+      <!--...........Start Header..........-->
+        <header>
+            <div class="navAndLogo" id="navAndLogo">
+              <div class="logo">
+                <img src="Imags/logo.png" alt="Logo">
+              </div>
+              <nav><!--Start Nav Bar-->
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#Row3">Booking</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav> <!--End Nav Bar-->
+            </div>
+          <div class="line">
+          </div>
+          <div id="slider">
+            <div class="mySlides fade">
+              <img src="Imags/slide-1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="Imags/slide-2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="Imags/slide-3.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          </div>
+        </header>
+      <!--.........End Header..............-->
+      <!--.........start Content............-->
+        <div id="content">
+          <div id="Row1"><!--Start Row1 'SERVICES'-->
+            <div class="container"><!--Start container in content-->
+              <section style="" ><!--Start Services Section-->
+                <div class="divsImag">
+                  <img src="Imags/title-img-2.png" alt="">
+                </div>
+                <div class="divsText">
+                  <h1 >POPULAR SERVICES</h1>
+                  <p>A wide range of male grooming services under one roof</p>
+                </div>
+                <div id="services">  <!--Start container of service divs -->
+                  <div class="service">
+                    <div class="serviceImag">
+                      <img src="Imags/scissors-and-comb.svg" alt="">
+                    </div>
+                    <div class="serviceText">
+                        <h3 style="margin-bottom:20px">HAIR STYLING</h3>
+                        <p>Get the best from your thick
+                           hair by choosing a great style and
+                            using the right products for
+                             the style you’re after.</p>
+                    </div>
+                  </div>
+                  <div class="service">
+                    <div class="serviceImag">
+                      <img src="Imags/razor-hair-salon-tool.svg" alt="">
+                      </div>
+                    <div class="serviceText">
+                      <h3 style="margin-bottom:20px">HAIR STYLING</h3>
+                      <p>Get the best from your thick
+                         hair by choosing a great style and
+                          using the right products for
+                           the style you’re after.</p>
+                    </div>
+                  </div>
+                  <div class="service">
+                    <div class="serviceImag">
+                      <img src="Imags/hair-dryer-on.svg" alt="">
+                      </div>
+                      <div class="serviceText">
+                        <h3 style="margin-bottom:20px">HAIR STYLING</h3>
+                        <p>Get the best from your thick
+                           hair by choosing a great style and
+                            using the right products for
+                             the style you’re after.</p>
+                      </div>
+                  </div>
+                  <div class="service">
+                    <div class="serviceImag">
+                      <img src="Imags/brush-tool.svg" alt="">
+                      </div>
+                      <div class="serviceText">
+                        <h3 style="margin-bottom:20px">HAIR STYLING</h3>
+                        <p>Get the best from your thick
+                           hair by choosing a great style and
+                            using the right products for
+                             the style you’re after.</p>
+                      </div>
+                  </div>
+                </div><!--End container of service divs -->
+              </section><!--End Service Section-->
+          </div><!--End container Row1 'Experts'-->
+        </div><!--End row1 of Content'SERVICES'-->
+          <div id="Row2"> <!--Start Row2 'Experts'-->
+            <div class="container"><!--Start Row2 Container-->
+              <section style=""><!--Start Expert Section-->
+                <div class="divsImag">
+                  <img src="Imags/title-img-4.png" alt="">
+                </div>
+                <div class="divsText">
+                    <h1>EXPERT STYLISTS</h1>
+                    <p>Our stylist offers traditional and contemporary services along with our very own treatment</p>
+                </div>
+                <div id="experts"> <!--Start container of expert divs -->
+                  <div class="expert">
+                      <img src="Imags/team-dark-1.jpg" alt="">
+                      <div class="">
+                        <h4>Guy C. Pulido</h4>
+                        <p>Master Barber & Color Expert</p>
+                      </div>
+                  </div>
+                  <div class="expert">
+                    <img src="Imags/team-dark-2.jpg" alt="">
+                    <div class="">
+                      <h4>Guy C. Pulido</h4>
+                      <p>Master Barber & Color Expert</p>
+                    </div>
+                  </div>
+                  <div class="expert">
+                    <img src="Imags/team-dark-3.jpg" alt="">
+                    <div class="">
+                      <h4>Guy C. Pulido</h4>
+                      <p>Master Barber & Color Expert</p>
+                    </div>
+                  </div>
+                </div><!--End container of expert divs -->
+              </section><!--End Expert Section-->
+            </div><!--End Container of row2 'experts'-->
+          </div> <!--End of row2 of Content 'experts'-->
+
+          <div id="Row3"> <!--Start row3 'Booking'-->
+            <div class="container"><!--Start container of row3 'Booking'-->
+              <section> <!--Start Booking Section-->
+                <div class="divsImag">
+                  <img src="Imags/title-img-3.png" alt="">
+                </div>
+                <div class="divsText">
+                    <h1>WE ARE AVAILABLE</h1>
+                    <p>Dedicated To Providing Excellence In Our Service</p>
+                </div>
+                <div id="booking" ><!--Start container of Booking divs -->
+                  <div class="text" style="width:35%; text-align: left; margin-left:4%">
+                    <div class=" BookingTextDiv">
+                      <h2>Early Morning</h2>
+                      <p>Premium for Classic price before 10 a.m. weekdays</p>
+                    </div>
+                    <div class="">
+                      <h2>Seniors</h2>
+                      <p>Classic discount before noon weekdays</p>
+                    </div>
+                    <div class="">
+                      <h2>Father and Son</h2>
+                      <p>Premium service for the price for dad & Men’s Haircut for  young man</p>
+                    </div>
+                    <div class="workHours">
+                      <h2>SPECIAL OCCASSION</h2>
+                      <div class="workHoursText" style="text-align:left;">
+                        <p>Friday and Saturday</p>
+                        <p>Sunday</p>
+                      </div>
+                      <div class="workHoursText">
+                        <p>07.00 am – 10:00 pm</p>
+                        <p>02:00 pm – 10:00 pm</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bookingImag" style="width:10%">
+                    <img src="Imags/scissor.png" alt="">
+                  </div>
+                  <div class="bookingForm" style="width:50%">
+                    <form class="bookingForm" action="index.html" method="post"  onsubmit="validateForm();event.preventDefault();">
+                      <div class="colum1">
+                        <div class="row1">
+                          <input type="date" name="0" value="" id="date" required >
+                          <span style="" id="dateSpan"></span>
+                        </div>
+                        <div class="row2">
+                          <select class="" name="" required>
+                            <option value="Service">Service</option>
+                            <option value="Hair Styling & Treatments">Hair Styling & Treatments</option>
+                            <option value="Shaves & Hot Towels">Shaves & Hot Towels</option>
+                            <option value="Beard Styling & Treatments">Beard Styling & Treatments</option>
+                            <option value="Signature Package">Signature Package</option>
+                            <option value="Barbershop Facials">Barbershop Facials</option>
+                            <option value="Treatment Lounge">Treatment Lounge</option>
+                            <option value="Wax Couch">Wax Couch</option>
+                            <option value="Wedding Package">Wedding Package</option>
+                          </select>
+                          <span></span>
+                        </div>
+                        <div class="row3">
+                          <input type="text" name="1" value="" required placeholder="Name"  onfocus="removeIcons(event)" onblur="validatBlur(event)" >
+                          <span></span>
+                        </div>
+                      </div>
+                      <div class="colum2">
+                        <div class="row1">
+                          <select class="" name="">
+                            <option value="03:00 pm">03:00 pm</option>
+                            <option value="04:00 pm">04:00 pm</option>
+                            <option value="05:00 pm">05:00 pm</option>
+                            <option value="06:00 pm">06:00 pm</option>
+                            <option value="07:00 pm">07:00 pm</option>
+                            <option value="08:00 pm">08:00 pm</option>
+                            <option value="09:00 pm">09:00 pm</option>
+                            <option value="10:00 pm">10:00 pm</option>
+                          </select>
+                          <span></span>
+                        </div>
+                        <div class="row2" >
+                          <select class="" name="" required>
+                            <option value="Stylist">Stylist</option>
+                            <option value="Paul Steels">Paul Steels</option>
+                            <option value="Sean Dick">Sean Dick</option>
+                            <option value="Paul Dos Reis">Paul Dos Reis</option>
+                          </select>
+                          <span></span>
+                        </div>
+                        <div class="row3">
+                          <input type="text" name="2" value="" onfocus="removeIcons(event)"  placeholder="Phone" onblur="validatBlur(event)" >
+                          <span></span>
+                        </div>
+                      </div>
+                      <div class="Email" >
+                        <input type="email" name="3" value=""  placeholder="Email" onfocus="removeIcons(event)"  onblur="validatBlur(event)">
+                        <span></span>
+                      </div>
+                      <div class="Submit" >
+                        <input type="submit" name="" value="Book Now">
+                      </div>
+                      <div id="submitFalse">
+
+                      </div>
+                    </form>
+                  </div>
+                </div><!--End container of Booking divs -->
+              </section><!--End Booking Section-->
+            </div><!--End container of row3 'Booking'-->
+          </div> <!--End row3 'Booking'-->
+          <div id="Row4"><!--Strart row4 'Information'-->
+            <div class="container"><!--Start container of information divs -->
+              <section style="padding:0"><!--Start information Section-->
+                    <div class="infoImag">
+                      <img src="Imags/stylist-1.png" alt="">
+                    </div>
+                    <div id="iconsAndText"> <!--Start info Icons container-->
+                      <div class="infoText">
+                        <div class="text">
+                          <h1>WHY CHOOSE MENZSALOON</h1>
+                        </div>
+                        <div class="text">
+                          <h4>A CULTURED HAIR AND BEAUTY SALON SITUATED IN THE HEART OF PADDINGTON</h4>
+                        </div>
+                        <div class="text">
+                          <p>With over 20 years of experience,
+                            we recognize the importance of internationalization for company growth.
+                            Approximately 25% of our clients have an international presence.</p>
+                        </div>
+                        <div class="text">
+                          <p>Menz Salon is a classical male grooming and traditional Barber shop.
+                             Providing a comprehensive menu of traditional and contemporary services towards men’s hair,
+                            beards, hot towel shaves, facials, and body treatments.
+                            A classic Barber Shop offering grooming services and products in the true sense.</p>
+                        </div>
+                      </div>
+                      <div class="infoicons">
+                        <div class="infoicon">
+                          <img src="Imags/hairdresser-with-comb-and-scissors.svg" alt="">
+                          <div class=""><h1 style="font-size:50px;">12</h1></div>
+                          <div class=""><h3>Professional Barbers</h3></div>
+                        </div>
+                        <div class="infoicon">
+                          <img src="Imags/boy-hair-shape.svg" alt="">
+                          <div class=""><h1 style="font-size:50px;">12</h1></div>
+                          <div class=""><h3>Stunning Hair Styles</h3></div>
+                        </div>
+                        <div class="infoicon">
+                          <img src="Imags/male-head-hair-and-beard.svg" alt="">
+                          <div class=""><h1 style="font-size:50px;">12</h1></div>
+                          <div class=""><h3>Happy Clients</h3></div>
+                        </div>
+                      </div>
+                    </div><!--End info Icons container-->
+                    <div class="" style="clear:both"></div>
+
+              </section><!--End information Section-->
+            </div><!--End container of Row4 'information'-->
+          </div><!--End Row3 'information'-->
+          </div>
+      <!--............End Content...............-->
+      <!--............Start Footer..............-->
+        <footer>
+          <div class="container">
+            <div class="elementsContainer" style="padding:40px">
+              <div class="logo">
+                <img src="Imags/footer-logo.png" alt="">
+              </div>
+              <div class="footContent" >
+                <div class="footRow1" style="width:50%;margin:0px auto">
+                  <div class="footerText">
+                    <p>Phone: +880-123-456-7890</p>
+                    <p>E-mail: example@yourdomain.com</p>
+                  </div>
+                  <div class="footerIcon">
+                    <img src="Imags/scissors.svg" alt="">
+                  </div>
+                  <div class="footerText">
+                    <p>2568 Hill Haven Drive</p>
+                    <p>Waco, TX 76706</p>
+                  </div>
+                </div>
+                <div class="icons"><!--Start Icons Div-->
+                  <a href="https://www.facebook.com/mahamedahmed.elawamy" target="_blank"> <i class="fab fa-facebook fa-2x"></i></a>
+                  <a href="https://twitter.com/M_EL3wamy" target="_blank"><i class="fab fa-twitter-square  fa-2x"></i></a>
+                  <a href="#"> <i class="fab fa-google-plus  fa-2x"></i></a>
+                  <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div><!--End Icons Div-->
+              </div>
+              </div>
+            </div>
+            <div class="copyRight">
+              <div style="padding:10px 0">Copyright 2018 MenzSalon WordPress Theme - by iThemesLab</div>
+          </div>
+        </footer>
+     <!--............End Footer..............-->
+    </div>
+    <script type="text/javascript">
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          setInterval(showSlides,10);
+    </script>
+    <script type="text/javascript" src="Js/MainJs.js"> </script>
+  </body>
+</html>

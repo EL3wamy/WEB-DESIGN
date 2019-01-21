@@ -1,0 +1,394 @@
+body
+{
+
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+#mainContent
+{
+  margin: 0 auto;
+}
+.container
+{
+  width: 80%;
+  margin:0 auto;
+  color: #f3f3f3;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+}
+/*Header Style*/
+header
+{
+  height: 25%;
+  font-family: 'VT323', monospace;
+  font-family: 'Cinzel', serif;
+  background-color: #2b2726;
+}
+
+ header .line
+  {
+    border:1px solid #333;
+    width: 100%;
+    position: fixed;
+    top:80px;
+    z-index: 1;
+  }
+ header .navAndLogo
+ {
+   font-size: 15px;
+   position: fixed;
+   width: 100%;
+   background:rgba(0, 0, 0, 0.5);
+   top: 0;
+   z-index: 1;
+
+ }
+  header .logo
+  {
+    display: inline-block;
+    clear: right;
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+      header .logo img
+      {
+
+      }
+  header nav
+  {
+    width: 46%;
+    float: right;
+    clear: left;
+    margin-top: 10px;
+
+  }
+    header nav ul
+    {
+      list-style: none;
+    }
+      header nav ul li
+      {
+        display: inline-block;
+        padding: 2.5%;
+      }
+        header nav ul li a
+        {
+          list-style: none;
+          color:white;
+          text-decoration: none;
+        }
+        a:hover
+        {
+          color: #bc9355
+        }
+#content
+{
+  height: 60%;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+      #Row1
+      {
+        background-color: #191919;
+      }
+        #content section
+        {
+          height: 25%;
+          color: white;
+          text-align: center;
+          padding: 100px 0;
+          }
+            #content h1
+            {
+              font-family: 'Playfair Display SC', serif;
+              font-size:30px;
+            }
+              #content #services    /*Start services section Style*/
+              {
+                margin-top: 25px;
+              }
+            #services .service
+            {
+              display: inline-block;
+              width: 22%;
+              margin: 14px;
+            }
+              section .divsText           /*texts style*/
+              {
+                line-height: 50px;
+              }
+              .service .serviceImag
+              {
+                border: 3px solid #bc9355;
+                width: 40%;
+                margin: 0 auto 20px;
+                padding: 20px 0;
+
+              }
+              #services img    /*icons style*/
+              {
+                width: 60%;
+                }                           /*End Services section Style*/
+
+      #Row2
+      {
+        background-color:#111010
+      }
+        #content #experts  /*Srart Experts Section */
+        {
+          margin: 10px;
+        }
+          #experts .expert>div
+          {
+            line-height: 20px;
+            padding: 20px;
+          }
+              #content #experts  img
+              {
+                width: 100%;
+                height: 70%;
+                border-bottom: 1px solid #444444;
+              }
+            #experts .expert
+              {
+                display: inline-block;
+                width: 30%;
+                margin: 10px;
+                border: 1px solid  #444444;
+              }
+                  #Row2 h4
+                  {
+                    font-family: "Playfair Display", serif;
+                    font-size: 24px;
+                    padding: 20px 0 20px;
+                    font-weight: 400;
+                    }
+                    #experts .expert:hover
+                    {
+                        border-color: #bc9355;
+                    }
+                    #content #experts  img:hover
+                    {
+                      border-color: #bc9355;
+                    }
+                    /*End Experts Section */
+
+      #Row3
+      {
+        background-image: url("../Imags/slide-3.jpg");
+        background-size: cover;
+      }
+        #content #booking     /*Start booking Section*/
+        {
+          margin: 50px 0;
+        }
+            #content #booking>div
+            {
+              display: inline-block;
+              line-height: 46px;
+              text-align: center;
+            }
+
+                #content #booking .bookingImag img
+                {
+                  width: 100%;
+                }
+                .workHours .workHoursText
+                {
+                  display:inline-block;
+                  width:49%;
+                  text-align: right;
+                }
+                .colum1 ,.colum2
+                {
+                  display: inline-block;
+                  width: 49%;
+                }
+                .bookingForm input:focus
+                {
+                  border-color: #bd9254;
+                }
+                input[type="text"],input[type="date"],input[type="text"],select,input[type='Email']
+                {
+                  background-color: transparent;
+                  border: 1px solid #b2b2b2;
+                  color: #757575;
+                  width: 70%;
+                  height: 40px;
+                  font-size: 15PX;
+                  padding-left: 5px;
+                }
+                input[type='Email']
+                {
+                  width: 85%;
+                }
+                    input[type='submit']:hover
+                    {
+                      cursor:pointer;
+                      background-color: #bc9355;
+                    }
+                .colum2>div,.colum1>div
+                {
+                  height: 80px;
+                }
+                input[type="submit"]
+                {
+                  color: #fff;
+                  background-color: transparent;
+                  border: 1px solid #bc9355;
+                  padding: 12px 50px;
+                  width: 30%;
+                  font-size: 18px;
+                  margin-top: 5%;
+                }
+                input+span
+                  {
+                    position: relative;
+                    top: 0;
+                    right: 10%;
+                  }/*End Booking Section Style*/
+
+
+      #Row4 /*Start information Section style*/
+      {
+        background-color:#191919;
+      }
+         #content #iconsAndText
+         {
+           width: 49%;
+           display: inline-block;
+           text-align: left;
+           margin-top: 50px;
+         }
+
+         #iconsAndText .infoicon
+          {
+            display: inline-block;
+            width: 30%;
+          }
+              #content #iconsAndText .text
+              {
+                margin-bottom: 20px;
+              }
+           #content .infoImag
+          {
+            width: 50%;
+            float: left;
+          }
+              #content .infoImag img
+              {
+                max-width: 100%;
+              }
+              .infoicon img
+              {
+                width: 50%;;
+                color: #bc9355;
+              }/*End information section Style*/
+
+footer
+{
+  height: 15%;
+  background-color:#111010;
+  text-align: center;
+}
+      .footRow1>div
+      {
+        margin: 0 20px;
+        color: white;
+      }
+      .icons i
+      {
+        color: white;
+        font-size: 45px;
+        margin: 10px 8px;
+        color: #c5c5c5;
+      }
+      .footContent img
+      {
+        width: 50px;
+      }
+      footer .copyRight
+      {
+        color: #b2b2b2;
+        background-color: #222;
+        padding: 17px 0 10px;
+        border-top: 1px solid #333333;
+      }
+      * {box-sizing: border-box}
+      .mySlides {display: none}
+      #slide img {vertical-align: middle;}
+
+      /* Slideshow container */
+      #slider {
+        position: relative;
+        margin: auto;
+        z-index: 0;
+      }
+
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+
+      /* Caption text */
+      #slider .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      /* The dots/bullets/indicators */
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
